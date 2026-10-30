@@ -1,0 +1,43 @@
+# Employee Management System
+
+Introduction
+The Employees System Project demonstrates the implementation of object-oriented programming concepts in Python. It encompasses three primary classes, each serving a distinct purpose:
+
+Employee
+The Employee class represents an individual employee with the following attributes:
+
+id: The id of the employee.
+name: The name of the employee.
+age: The age of the employee.
+salary: The salary of the employee.
+contact: The contact number of the wmployee.
+This class provides methods for string representation and formatted output of employee information.
+
+EmpManager
+The EmpManager class is responsible for managing a list of employees. It offers functionalities to:
+
+ Add a new employee
+- Display all employees
+- Delete an employee by ID
+- Find employee details by ID
+- Update employee salary by ID
+- Exit the program
+UserManagment
+The FrontendManager class provides a user interface for interacting with the EmployeesManager. Users can perform actions such as:
+
+Adding new employees.
+Listing existing employees.
+Deleting employees based on age range.
+Updating employee salaries by name.
+
+## Current Status
+The basic employee management features are implemented and tested.
+
+## Future Improvements
+- Prevent duplicate employee IDs
+- Add input validation
+- Store employee data permanently in a database
+- Improve error handling
+
+## Author
+Goutam
